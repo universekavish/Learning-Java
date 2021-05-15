@@ -11,7 +11,7 @@ public class stringMethods {
 		//String result = name.toUpperCase();
 		//String result = name.toLowerCase();
 		//String result = name.trim(); remove empty space in name
-		//String result = name.replace('v', 'a');
+		String result = name.replace('v', 'a');
 		
 		
 		System.out.println(result);
