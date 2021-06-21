@@ -6,6 +6,11 @@ public class Car {
 	String color = "blue";
 	double price = 50000.00;
 	
+	public String toString() {
+		
+		return make +"\n"+model+"\n"+color+"\n"+year;
+	}
+	
 	void drive() {
 		System.out.println("You drive the car");
 	}
