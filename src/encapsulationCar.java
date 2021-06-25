@@ -9,7 +9,10 @@ public class encapsulationCar {
 		this.setModel(model);
 		this.setYear(year);
 	}	
-	
+	// second method to copy objects
+	encapsulationCar(encapsulationCar x){
+		this.copy(x);
+	}
 	public String getMake() {
 		return make;
 	}

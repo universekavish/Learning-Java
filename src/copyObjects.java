@@ -3,9 +3,10 @@
 public class copyObjects {
 	public static void main(String[] args) {
 		encapsulationCar car1 = new encapsulationCar("Chevrolett","Camaro",2021);
-		encapsulationCar car2 = new encapsulationCar("Ford","Mustang",2022);
-		
-		car2.copy(car1);
+//		encapsulationCar car2 = new encapsulationCar("Ford","Mustang",2022);
+//		
+//		car2.copy(car1);
+		encapsulationCar car2 = new encapsulationCar(car1);// for second method of copy constructors
 		
 		System.out.println(car1);
 		System.out.println(car2);
