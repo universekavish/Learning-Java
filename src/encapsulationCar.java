@@ -29,4 +29,10 @@ public class encapsulationCar {
 	public void setYear(int year) {
 		this.year = year;
 	}
+	// adding copy method for copyObjects
+	public void copy(encapsulationCar x) {
+		this.setMake(x.getMake());
+		this.setModel(x.getModel());
+		this.setYear(x.getYear());
+	}
 }
