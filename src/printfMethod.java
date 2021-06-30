@@ -11,7 +11,7 @@ public class printfMethod {
 		System.out.printf("%b",myBoolean);
 		System.out.printf("%c",myChar);
 		System.out.printf("%s",myString);
-		System.out.printf("d",myInt);
+		System.out.printf("%d",myInt);
 		System.out.printf("%f",myDouble);
 		
 		//width
